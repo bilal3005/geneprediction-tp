@@ -1,0 +1,10 @@
+name: genepred
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - pip
+  - python
+  - pytest 
+  - pytest-cov
+  - pylint 
