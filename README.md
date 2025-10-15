@@ -6,8 +6,6 @@ Protein-coding genes are contiguous stretches within transcripts that can be tra
 
 Upstream of many bacterial start codons lies a ribosome-binding site, often referred to as the Shine–Dalgarno (SD) motif (canonical sequence: AGGAGGUAA), which base-pairs with the 16S rRNA to position the ribosome for translation initiation. The SD signal can be partial and does not need to be in-frame with the start codon. See the original work by Shine and Dalgarno (1973) for background.
 
-![Gene prediction overview](assets/gene-prediction.png)
-
 Automated gene calling remains essential for genomes without curated annotations. Numerous tools exist for this purpose; here, we implement a compact, teaching-oriented approach that detects reading frames and searches for an SD-like motif to predict prokaryotic genes.
 
 Our target dataset is the reference genome of Listeria monocytogenes EGD-e (Institut Pasteur), which contains 2,867 annotated genes. Reference: https://www.ncbi.nlm.nih.gov/genome/browse/#!/proteins/159/159660%7CListeria%20monocytogenes%20EGD-e/
