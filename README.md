@@ -61,8 +61,3 @@ To gauge performance, compare your predictions with reference sets using [jvenn]
 ![Venn comparison](images/jVenn_chart.png)
 
 This exercise highlights that an SD-centric heuristic alone cannot recover all true genes. Nevertheless, it can reveal a subset of genes missed by more complex pipelines such as Prodigal, illustrating complementary strengths across methods.
-
-
-## Contact
-
-If you have any questions or need additional information, feel free to reach out via email: bilal.delikaya@etu.u-paris.fr
